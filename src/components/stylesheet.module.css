@@ -1,0 +1,49 @@
+.phonebookappborder{
+    border:1px solid black;
+    padding:10px;
+    margin:10px;
+    margin-bottom:10px;
+}
+
+.contactNames{
+ list-style-type: none;
+ text-decoration: none;
+ padding:0;
+}
+.contactNames li{
+    background:green;
+    border:1px solid darkgreen;
+    text-align: center;
+}
+
+.contactNames li{
+    color:white;
+}
+
+.imgDimensions{
+    width:200px;
+    height:100px;
+}
+
+#addNewContact{
+    color:white;
+    background: orange;
+    border: 2px solid darkorange;
+}
+
+#name, #phone, #address, #shortBio #customFile{
+  border-radius: 2%;
+  box-shadow: 0 0 10px red;
+  -webkit-box-shadow: 0 0 10px red;
+  border:1px solid red;
+}
+#name:focus, #phone:focus, #address:focus, #shortBio:focus, #customFile:focus{
+  border-radius: 2%;
+  box-shadow: 0 0 10px red;
+  -webkit-box-shadow: 0 0 10px red;
+  border:1px solid red;
+}
+
+#nameError, #phoneError, #addressError, #bioError, #customFileError{
+    color:red;
+}
